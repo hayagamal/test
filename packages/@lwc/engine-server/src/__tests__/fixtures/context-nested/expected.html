@@ -1,0 +1,15 @@
+<x-provider>
+  <template shadowrootmode="open">
+    <x-provider-nested>
+      <template shadowrootmode="open">
+        <x-consumer>
+          <template shadowrootmode="open">
+            <div>
+              top-level and nested
+            </div>
+          </template>
+        </x-consumer>
+      </template>
+    </x-provider-nested>
+  </template>
+</x-provider>

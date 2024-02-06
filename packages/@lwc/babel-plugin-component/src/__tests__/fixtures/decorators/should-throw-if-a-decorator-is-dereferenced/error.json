@@ -1,0 +1,10 @@
+{
+    "message": "LWC1104: \"track\" can only be used as a class decorator",
+    "loc": {
+        "line": 2,
+        "column": 0,
+        "start": 47,
+        "length": 20
+    },
+    "filename": "test.js"
+}

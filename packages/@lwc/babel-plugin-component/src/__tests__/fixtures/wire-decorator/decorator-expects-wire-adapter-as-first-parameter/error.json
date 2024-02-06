@@ -1,0 +1,10 @@
+{
+    "message": "LWC1092: @wire expects an adapter as first parameter. @wire(adapter: WireAdapter, config?: any).",
+    "loc": {
+        "line": 3,
+        "column": 2,
+        "start": 101,
+        "length": 7
+    },
+    "filename": "test.js"
+}

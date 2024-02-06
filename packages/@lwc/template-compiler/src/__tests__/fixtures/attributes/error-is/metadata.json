@@ -1,0 +1,26 @@
+{
+    "warnings": [
+        {
+            "code": 1063,
+            "message": "LWC1063: \"is\" attribute is disallowed",
+            "level": 1,
+            "location": {
+                "line": 3,
+                "column": 9,
+                "start": 33,
+                "length": 29
+            }
+        },
+        {
+            "code": 1063,
+            "message": "LWC1063: \"is\" attribute is disallowed",
+            "level": 1,
+            "location": {
+                "line": 4,
+                "column": 9,
+                "start": 71,
+                "length": 25
+            }
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "message": "LWC1132: @wire identifier cannot contain nested member expressions",
+    "loc": {
+        "line": 4,
+        "column": 8,
+        "start": 130,
+        "length": 12
+    },
+    "filename": "test.js"
+}

@@ -1,0 +1,26 @@
+<x-if-custom-element-child>
+  <template shadowrootmode="open">
+    <div class="active-if-blocks">
+      <x-custom-element-child>
+        <template shadowrootmode="open">
+          <x-child>
+            <template shadowrootmode="open">
+              Custom element child x-child-test-false
+            </template>
+          </x-child>
+          <x-child>
+            <template shadowrootmode="open">
+              Custom element child x-child-test-true
+            </template>
+          </x-child>
+        </template>
+      </x-custom-element-child>
+    </div>
+    <div class="inactive-if-blocks">
+      <x-custom-element-child>
+        <template shadowrootmode="open">
+        </template>
+      </x-custom-element-child>
+    </div>
+  </template>
+</x-if-custom-element-child>

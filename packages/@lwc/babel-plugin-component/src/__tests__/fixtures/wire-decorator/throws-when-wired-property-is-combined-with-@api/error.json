@@ -1,0 +1,10 @@
+{
+    "message": "LWC1095: @wire method or property cannot be used with @api",
+    "loc": {
+        "line": 5,
+        "column": 2,
+        "start": 152,
+        "length": 59
+    },
+    "filename": "test.js"
+}

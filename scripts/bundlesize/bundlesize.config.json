@@ -1,0 +1,16 @@
+{
+    "files": [
+        {
+            "path": "packages/@lwc/engine-dom/dist/index.js",
+            "maxSize": "22KB"
+        },
+        {
+            "path": "packages/@lwc/synthetic-shadow/dist/index.js",
+            "maxSize": "12.53KB"
+        },
+        {
+            "path": "packages/@lwc/wire-service/dist/index.js",
+            "maxSize": "1.07KB"
+        }
+    ]
+}

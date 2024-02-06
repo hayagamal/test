@@ -1,0 +1,58 @@
+<x-if-conditional-slot>
+  <template shadowrootmode="open">
+    <div class="active-if-blocks">
+      <x-parent>
+        <template shadowrootmode="open">
+          <x-slotted>
+            <template shadowrootmode="open">
+              Should be active when true === true
+              <slot name="trueslot">
+              </slot>
+              Should be active when false === false
+              <slot name="falseslot">
+              </slot>
+            </template>
+            <x-child class="slotted-child" slot="trueslot">
+              <template shadowrootmode="open">
+                <slot>
+                </slot>
+              </template>
+              Testing if:true
+            </x-child>
+            <x-child class="slotted-child" slot="falseslot">
+              <template shadowrootmode="open">
+                <slot>
+                </slot>
+              </template>
+              Testing if:false
+            </x-child>
+          </x-slotted>
+        </template>
+      </x-parent>
+    </div>
+    <div class="inactive-if-blocks">
+      <x-parent>
+        <template shadowrootmode="open">
+          <x-slotted>
+            <template shadowrootmode="open">
+            </template>
+            <x-child class="slotted-child" slot="trueslot">
+              <template shadowrootmode="open">
+                <slot>
+                </slot>
+              </template>
+              Testing if:true
+            </x-child>
+            <x-child class="slotted-child" slot="falseslot">
+              <template shadowrootmode="open">
+                <slot>
+                </slot>
+              </template>
+              Testing if:false
+            </x-child>
+          </x-slotted>
+        </template>
+      </x-parent>
+    </div>
+  </template>
+</x-if-conditional-slot>

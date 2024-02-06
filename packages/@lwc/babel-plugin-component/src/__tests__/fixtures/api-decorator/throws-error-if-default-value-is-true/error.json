@@ -1,0 +1,10 @@
+{
+    "message": "LWC1099: Boolean public property must default to false.",
+    "loc": {
+        "line": 3,
+        "column": 2,
+        "start": 100,
+        "length": 23
+    },
+    "filename": "test.js"
+}

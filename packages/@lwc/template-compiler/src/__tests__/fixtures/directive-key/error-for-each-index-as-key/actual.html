@@ -1,0 +1,9 @@
+<template>
+    <section>
+        <template for:index="index" for:each={items} for:item="item">
+            <div key={index} class="my-list">
+                <p>{item}</p>
+            </div>
+        </template>
+    </section>
+</template>

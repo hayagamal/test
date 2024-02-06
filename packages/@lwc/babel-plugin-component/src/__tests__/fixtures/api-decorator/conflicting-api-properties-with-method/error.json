@@ -1,0 +1,10 @@
+{
+    "message": "LWC1096: Duplicate @api property \"foo\".",
+    "loc": {
+        "line": 4,
+        "column": 2,
+        "start": 116,
+        "length": 4
+    },
+    "filename": "test.js"
+}

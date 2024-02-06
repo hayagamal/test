@@ -1,0 +1,10 @@
+{
+    "message": "LWC1094: @wire expects a configuration object expression as second parameter.",
+    "loc": {
+        "line": 4,
+        "column": 16,
+        "start": 154,
+        "length": 7
+    },
+    "filename": "test.js"
+}

@@ -1,0 +1,17 @@
+<x-root>
+  <template shadowrootmode="open">
+    <x-provider>
+      <template shadowrootmode="open">
+        <slot>
+        </slot>
+      </template>
+      <x-consumer>
+        <template shadowrootmode="open">
+          <div>
+            some context
+          </div>
+        </template>
+      </x-consumer>
+    </x-provider>
+  </template>
+</x-root>

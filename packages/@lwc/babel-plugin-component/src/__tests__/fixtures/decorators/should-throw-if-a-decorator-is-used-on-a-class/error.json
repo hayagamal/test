@@ -1,0 +1,10 @@
+{
+    "message": "LWC1103: \"@track\" can only be applied on class properties",
+    "loc": {
+        "line": 2,
+        "column": 0,
+        "start": 47,
+        "length": 44
+    },
+    "filename": "test.js"
+}

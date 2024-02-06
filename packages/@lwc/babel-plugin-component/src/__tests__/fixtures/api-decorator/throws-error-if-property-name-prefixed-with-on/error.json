@@ -1,0 +1,10 @@
+{
+    "message": "LWC1108: Invalid property name \"onChangeHandler\". Properties starting with \"on\" are reserved for event handlers.",
+    "loc": {
+        "line": 3,
+        "column": 2,
+        "start": 100,
+        "length": 21
+    },
+    "filename": "test.js"
+}

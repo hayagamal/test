@@ -1,0 +1,10 @@
+{
+    "message": "LWC1113: @track decorator can only be applied to class properties.",
+    "loc": {
+        "line": 3,
+        "column": 2,
+        "start": 102,
+        "length": 6
+    },
+    "filename": "test.js"
+}

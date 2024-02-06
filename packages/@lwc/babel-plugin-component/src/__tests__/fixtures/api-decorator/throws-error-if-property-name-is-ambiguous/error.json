@@ -1,0 +1,10 @@
+{
+    "message": "LWC1109: Ambiguous attribute name \"tabindex\". \"tabindex\" will never be called from template because its corresponding property is camel cased. Consider renaming to \"tabIndex\".",
+    "loc": {
+        "line": 3,
+        "column": 2,
+        "start": 100,
+        "length": 14
+    },
+    "filename": "test.js"
+}

@@ -1,0 +1,6 @@
+{
+    "modules": [
+        { "npm" : "deps" },
+        { "npm" : "@scoped/deps" }
+    ]
+}

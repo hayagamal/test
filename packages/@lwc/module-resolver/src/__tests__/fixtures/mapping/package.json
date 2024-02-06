@@ -1,0 +1,10 @@
+{
+    "name": "mapping",
+    "private": true,
+    "version": "0.0.1",
+    "main": "index.js",
+    "dependencies": {
+        "@lwc/lwc-modules-foo": "1.0.0",
+        "@lwc/lwc-modules-bar": "1.0.0"
+    }
+}

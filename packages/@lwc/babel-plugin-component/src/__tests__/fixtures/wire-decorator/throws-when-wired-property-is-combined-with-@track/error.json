@@ -1,0 +1,10 @@
+{
+    "message": "LWC1095: @wire method or property cannot be used with @track",
+    "loc": {
+        "line": 5,
+        "column": 2,
+        "start": 156,
+        "length": 59
+    },
+    "filename": "test.js"
+}

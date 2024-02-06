@@ -1,0 +1,11 @@
+dist/
+lib/
+coverage/
+
+fixtures/
+public/
+types/
+
+.rollup.cache
+
+__benchmarks_results__/

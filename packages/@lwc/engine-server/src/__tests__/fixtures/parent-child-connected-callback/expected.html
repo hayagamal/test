@@ -1,0 +1,23 @@
+<x-parent>
+  <template shadowrootmode="open">
+    <div>
+      connectedCallback called
+    </div>
+    <x-child>
+      <template shadowrootmode="open">
+        <div>
+          connectedCallback called
+        </div>
+        <slot>
+        </slot>
+      </template>
+      <x-slotted>
+        <template shadowrootmode="open">
+          <div>
+            connectedCallback called
+          </div>
+        </template>
+      </x-slotted>
+    </x-child>
+  </template>
+</x-parent>

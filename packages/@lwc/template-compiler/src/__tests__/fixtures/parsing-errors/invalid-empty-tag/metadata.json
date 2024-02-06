@@ -1,0 +1,26 @@
+{
+    "warnings": [
+        {
+            "code": 1058,
+            "message": "LWC1058: Invalid HTML syntax: non-void-html-element-start-tag-with-trailing-solidus. For more information, please visit https://html.spec.whatwg.org/multipage/parsing.html#parse-error-non-void-html-element-start-tag-with-trailing-solidus",
+            "level": 1,
+            "location": {
+                "line": 2,
+                "column": 5,
+                "start": 15,
+                "length": 10
+            }
+        },
+        {
+            "code": 1058,
+            "message": "LWC1058: Invalid HTML syntax: closing-of-element-with-open-child-elements. For more information, please visit https://html.spec.whatwg.org/multipage/parsing.html#parse-error-closing-of-element-with-open-child-elements",
+            "level": 1,
+            "location": {
+                "line": 3,
+                "column": 1,
+                "start": 26,
+                "length": 11
+            }
+        }
+    ]
+}
